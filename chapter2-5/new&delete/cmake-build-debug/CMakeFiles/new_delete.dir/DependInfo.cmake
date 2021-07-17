@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewDelete.cpp" "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles/new_delete.dir/NewDelete.cpp.o"
-  "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/main.cpp" "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles/new_delete.dir/main.cpp.o"
+  "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewObject.cpp" "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles/new_delete.dir/NewObject.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

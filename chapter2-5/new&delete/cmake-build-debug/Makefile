@@ -143,59 +143,32 @@ new_delete/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/build
 .PHONY : new_delete/fast
 
-NewDelete.o: NewDelete.cpp.o
+NewObject.o: NewObject.cpp.o
 
-.PHONY : NewDelete.o
-
-# target to build an object file
-NewDelete.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewDelete.cpp.o
-.PHONY : NewDelete.cpp.o
-
-NewDelete.i: NewDelete.cpp.i
-
-.PHONY : NewDelete.i
-
-# target to preprocess a source file
-NewDelete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewDelete.cpp.i
-.PHONY : NewDelete.cpp.i
-
-NewDelete.s: NewDelete.cpp.s
-
-.PHONY : NewDelete.s
-
-# target to generate assembly for a file
-NewDelete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewDelete.cpp.s
-.PHONY : NewDelete.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : NewObject.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/main.cpp.o
-.PHONY : main.cpp.o
+NewObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewObject.cpp.o
+.PHONY : NewObject.cpp.o
 
-main.i: main.cpp.i
+NewObject.i: NewObject.cpp.i
 
-.PHONY : main.i
+.PHONY : NewObject.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/main.cpp.i
-.PHONY : main.cpp.i
+NewObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewObject.cpp.i
+.PHONY : NewObject.cpp.i
 
-main.s: main.cpp.s
+NewObject.s: NewObject.cpp.s
 
-.PHONY : main.s
+.PHONY : NewObject.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/main.cpp.s
-.PHONY : main.cpp.s
+NewObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewObject.cpp.s
+.PHONY : NewObject.cpp.s
 
 # Help Target
 help:
@@ -206,12 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... new_delete"
-	@echo "... NewDelete.o"
-	@echo "... NewDelete.i"
-	@echo "... NewDelete.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... NewObject.o"
+	@echo "... NewObject.i"
+	@echo "... NewObject.s"
 .PHONY : help
 
 

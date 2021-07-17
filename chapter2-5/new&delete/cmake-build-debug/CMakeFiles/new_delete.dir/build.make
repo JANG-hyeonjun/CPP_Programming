@@ -77,45 +77,30 @@ include CMakeFiles/new_delete.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/new_delete.dir/flags.make
 
-CMakeFiles/new_delete.dir/main.cpp.o: CMakeFiles/new_delete.dir/flags.make
-CMakeFiles/new_delete.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/new_delete.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/new_delete.dir/main.cpp.o -c "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/main.cpp"
+CMakeFiles/new_delete.dir/NewObject.cpp.o: CMakeFiles/new_delete.dir/flags.make
+CMakeFiles/new_delete.dir/NewObject.cpp.o: ../NewObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/new_delete.dir/NewObject.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/new_delete.dir/NewObject.cpp.o -c "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewObject.cpp"
 
-CMakeFiles/new_delete.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/new_delete.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/main.cpp" > CMakeFiles/new_delete.dir/main.cpp.i
+CMakeFiles/new_delete.dir/NewObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/new_delete.dir/NewObject.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewObject.cpp" > CMakeFiles/new_delete.dir/NewObject.cpp.i
 
-CMakeFiles/new_delete.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/new_delete.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/main.cpp" -o CMakeFiles/new_delete.dir/main.cpp.s
-
-CMakeFiles/new_delete.dir/NewDelete.cpp.o: CMakeFiles/new_delete.dir/flags.make
-CMakeFiles/new_delete.dir/NewDelete.cpp.o: ../NewDelete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/new_delete.dir/NewDelete.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/new_delete.dir/NewDelete.cpp.o -c "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewDelete.cpp"
-
-CMakeFiles/new_delete.dir/NewDelete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/new_delete.dir/NewDelete.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewDelete.cpp" > CMakeFiles/new_delete.dir/NewDelete.cpp.i
-
-CMakeFiles/new_delete.dir/NewDelete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/new_delete.dir/NewDelete.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewDelete.cpp" -o CMakeFiles/new_delete.dir/NewDelete.cpp.s
+CMakeFiles/new_delete.dir/NewObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/new_delete.dir/NewObject.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewObject.cpp" -o CMakeFiles/new_delete.dir/NewObject.cpp.s
 
 # Object files for target new_delete
 new_delete_OBJECTS = \
-"CMakeFiles/new_delete.dir/main.cpp.o" \
-"CMakeFiles/new_delete.dir/NewDelete.cpp.o"
+"CMakeFiles/new_delete.dir/NewObject.cpp.o"
 
 # External object files for target new_delete
 new_delete_EXTERNAL_OBJECTS =
 
-new_delete: CMakeFiles/new_delete.dir/main.cpp.o
-new_delete: CMakeFiles/new_delete.dir/NewDelete.cpp.o
+new_delete: CMakeFiles/new_delete.dir/NewObject.cpp.o
 new_delete: CMakeFiles/new_delete.dir/build.make
 new_delete: CMakeFiles/new_delete.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable new_delete"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable new_delete"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/new_delete.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

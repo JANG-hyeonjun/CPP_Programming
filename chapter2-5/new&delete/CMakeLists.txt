@@ -3,4 +3,4 @@ project(new_delete)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(new_delete main.cpp NewDelete.cpp)
+add_executable(new_delete NewObject.cpp)
