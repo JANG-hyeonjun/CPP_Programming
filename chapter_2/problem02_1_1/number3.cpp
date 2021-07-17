@@ -17,7 +17,7 @@ int main() {
     int *ptr1 =&num1;
     int num2 = 10;
     int *ptr2 = &num2;
-    
+
     SwapByRef2(*ptr1,*ptr2);
     cout << "ptr1: "<< *ptr1 << endl;
     cout << "ptr2: "<< *ptr2 << endl;

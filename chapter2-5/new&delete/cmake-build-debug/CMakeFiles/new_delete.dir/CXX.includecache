@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/NewDelete.cpp
+
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&delete/main.cpp
+iostream
+-
+string.h
+-
+stdlib.h
+-
+
