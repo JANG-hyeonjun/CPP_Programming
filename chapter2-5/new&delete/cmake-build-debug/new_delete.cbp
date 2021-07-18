@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&amp;delete/NewObject.cpp">
+		<Unit filename="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&amp;delete/problem02_4_2.cpp">
 			<Option target="new_delete"/>
 		</Unit>
 		<Unit filename="/Users/janghyeonjun/Desktop/CPP_Programming/chapter2-5/new&amp;delete/CMakeLists.txt">

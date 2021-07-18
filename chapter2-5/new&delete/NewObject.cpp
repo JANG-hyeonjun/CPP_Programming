@@ -25,3 +25,12 @@ int main()
     free(sp2);
     return 0;
 }
+/*
+ * new 연산자를 이용해서 할당된 메모리 공간도 변수로 간주하여 참조자 선언이 가능하다
+ * 다음과 같은 코드도 동작하게 된다.
+ * int *ptr = new int
+ * int &ref = *ptr
+ * ref = 20
+ * cout << *ptr << endl;
+ * 출력 결과는 20이다
+ */

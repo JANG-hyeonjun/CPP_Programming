@@ -143,32 +143,32 @@ new_delete/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/build
 .PHONY : new_delete/fast
 
-NewObject.o: NewObject.cpp.o
+problem02_4_2.o: problem02_4_2.cpp.o
 
-.PHONY : NewObject.o
+.PHONY : problem02_4_2.o
 
 # target to build an object file
-NewObject.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewObject.cpp.o
-.PHONY : NewObject.cpp.o
+problem02_4_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/problem02_4_2.cpp.o
+.PHONY : problem02_4_2.cpp.o
 
-NewObject.i: NewObject.cpp.i
+problem02_4_2.i: problem02_4_2.cpp.i
 
-.PHONY : NewObject.i
+.PHONY : problem02_4_2.i
 
 # target to preprocess a source file
-NewObject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewObject.cpp.i
-.PHONY : NewObject.cpp.i
+problem02_4_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/problem02_4_2.cpp.i
+.PHONY : problem02_4_2.cpp.i
 
-NewObject.s: NewObject.cpp.s
+problem02_4_2.s: problem02_4_2.cpp.s
 
-.PHONY : NewObject.s
+.PHONY : problem02_4_2.s
 
 # target to generate assembly for a file
-NewObject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/NewObject.cpp.s
-.PHONY : NewObject.cpp.s
+problem02_4_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new_delete.dir/build.make CMakeFiles/new_delete.dir/problem02_4_2.cpp.s
+.PHONY : problem02_4_2.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... new_delete"
-	@echo "... NewObject.o"
-	@echo "... NewObject.i"
-	@echo "... NewObject.s"
+	@echo "... problem02_4_2.o"
+	@echo "... problem02_4_2.i"
+	@echo "... problem02_4_2.s"
 .PHONY : help
 
 
