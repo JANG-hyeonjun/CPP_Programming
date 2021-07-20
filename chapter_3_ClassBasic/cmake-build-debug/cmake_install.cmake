@@ -1,4 +1,4 @@
-# Install script for directory: /Users/janghyeonjun/Desktop/CPP_Programming/chapter_3
+# Install script for directory: /Users/janghyeonjun/Desktop/CPP_Programming/chapter_3_ClassBasic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/janghyeonjun/Desktop/CPP_Programming/chapter_3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/janghyeonjun/Desktop/CPP_Programming/chapter_3_ClassBasic/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
