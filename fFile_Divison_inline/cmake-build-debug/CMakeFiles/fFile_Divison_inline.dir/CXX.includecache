@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janghyeonjun/Desktop/CPP_Programming/fFile_Divison_inline/CarInline.cpp
+iostream
+-
+cstring
+-
+CarInline.h
+/Users/janghyeonjun/Desktop/CPP_Programming/fFile_Divison_inline/CarInline.h
+
+/Users/janghyeonjun/Desktop/CPP_Programming/fFile_Divison_inline/CarInline.h
+iostream
+-
+
+/Users/janghyeonjun/Desktop/CPP_Programming/fFile_Divison_inline/RacingInlineMain.cpp
+CarInline.h
+/Users/janghyeonjun/Desktop/CPP_Programming/fFile_Divison_inline/CarInline.h
+

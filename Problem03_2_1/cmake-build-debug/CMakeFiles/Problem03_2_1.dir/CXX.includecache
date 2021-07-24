@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janghyeonjun/Desktop/CPP_Programming/Problem03_2_1/cal.cpp
+cal.h
+/Users/janghyeonjun/Desktop/CPP_Programming/Problem03_2_1/cal.h
+iostream
+-
+
+/Users/janghyeonjun/Desktop/CPP_Programming/Problem03_2_1/cal.h
+

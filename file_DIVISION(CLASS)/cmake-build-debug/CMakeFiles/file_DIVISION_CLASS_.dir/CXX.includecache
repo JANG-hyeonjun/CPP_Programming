@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janghyeonjun/Desktop/CPP_Programming/file_DIVISION(CLASS)/Car.h
+
+/Users/janghyeonjun/Desktop/CPP_Programming/file_DIVISION(CLASS)/RacingMain.cpp
+Car.h
+/Users/janghyeonjun/Desktop/CPP_Programming/file_DIVISION(CLASS)/Car.h
+
