@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Point.h
+
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Rectangle.h
+Point.h
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Point.h
+
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/RectangleFaultFind.cpp
+iostream
+-
+Point.h
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Point.h
+Rectangle.h
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Rectangle.h
+
