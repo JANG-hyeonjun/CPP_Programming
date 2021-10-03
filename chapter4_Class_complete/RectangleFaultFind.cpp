@@ -9,6 +9,7 @@ using namespace std;
 
 int main(void)
 {
+    /*
     Point pos1;
     if(!pos1.InitMembers(-2,4))
         cout << "초기화 실패" << endl;
@@ -25,6 +26,9 @@ int main(void)
     if(!rec.InitMembers(pos1,pos2))
     cout << "직사각형 초기화 실패" << endl;
 
+    rec.ShowRecInfo();
+     */
+    Rectangle rec(1,1,5,5);
     rec.ShowRecInfo();
     return 0;
 

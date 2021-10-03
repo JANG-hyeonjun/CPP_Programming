@@ -5,7 +5,10 @@
 #include "Rectangle.h"
 using namespace std;
 
-bool Rectangle::InitMembers(const Point &ul, const Point &lr) {
+Rectangle::Rectangle(const int &x1, const int &y1, const int &x2, const int &y2)
+    :upLeft(x1,y1),lowRight(x2,y2)
+{
+   /*
     if(ul.GetX() > lr.GetX() || ul.GetY() > lr.GetY())
     {
         cout << "잘못된 위치정보 전달" << endl;
@@ -14,6 +17,7 @@ bool Rectangle::InitMembers(const Point &ul, const Point &lr) {
     upLeft=ul;
     lowRight = lr;
     return true;
+    */
 }
 
 void Rectangle::ShowRecInfo() const {

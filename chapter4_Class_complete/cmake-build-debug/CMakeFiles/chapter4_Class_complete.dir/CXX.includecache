@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Point.cpp
+iostream
+-
+Point.h
 /Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Point.h
+
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Point.h
+
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Rectangle.cpp
+iostream
+-
+Rectangle.h
+/Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Rectangle.h
 
 /Users/janghyeonjun/Desktop/CPP_Programming/chapter4_Class_complete/Rectangle.h
 Point.h

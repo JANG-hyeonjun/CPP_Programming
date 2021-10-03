@@ -12,7 +12,9 @@ private:
     int y;
 
 public:
-    bool InitMembers(int xpos , int ypos);
+    //bool InitMembers(int xpos , int ypos);
+    //이것은 생성자를 넣은것이 아니라 초기화 해주는 멤버 함수를 완성한것이다.
+    Point(const int &xpos,const int &ypos);
     int GetX() const;
     int GetY() const;
 
