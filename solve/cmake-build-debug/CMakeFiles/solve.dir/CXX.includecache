@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/janghyeonjun/Desktop/CPP_Programming/solve/main.cpp
+stdio.h
+-
+vector
+-
+queue
+-
+algorithm
+-
+iostream
+-
+string
+-
+bitset
+-
+map
+-
+set
+-
+tuple
+-
+string.h
+-
+math.h
+-
+random
+-
+functional
+-
+assert.h
+-
+math.h
+-
+
