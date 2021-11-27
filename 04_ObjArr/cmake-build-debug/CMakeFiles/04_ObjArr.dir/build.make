@@ -88,6 +88,8 @@ CMakeFiles/04_ObjArr.dir/main.cpp.s: cmake_force
 
 04_ObjArr: CMakeFiles/04_ObjArr.dir/main.cpp.o
 04_ObjArr: CMakeFiles/04_ObjArr.dir/build.make
+04_ObjArr: ../lib/x64/Debug/OpenMeshCored.lib
+04_ObjArr: ../lib/x64/Debug/OpenMeshToolsd.lib
 04_ObjArr: CMakeFiles/04_ObjArr.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/janghyeonjun/Desktop/CPP_Programming/04_ObjArr/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 04_ObjArr"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/04_ObjArr.dir/link.txt --verbose=$(VERBOSE)

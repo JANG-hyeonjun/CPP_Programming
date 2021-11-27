@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstring>
+//#include "OpenMesh/Core/IO/MeshIO.hh"
+#include "OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh"
 
 using namespace std;
 
@@ -41,6 +43,12 @@ public:
 
 
 int main() {
+    using MyMeshT = OpenMesh::TriMesh_ArrayKernelT<>; // AlIAS
+    MyMeshT	my_mesh;
+
+    //OpenMesh::IO::read_mesh(my_mesh, "./test.ply");
+
+    //OpenMesh::IO::write_mesh(my_mesh, "./export2.ply");
 
     Person parr[3];
     char namestr[100];
