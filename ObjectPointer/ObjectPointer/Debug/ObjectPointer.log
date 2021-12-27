@@ -1,0 +1,3 @@
+﻿  EmployeeManager2.cpp
+C:\Users\user\Desktop\CPP_Programming\ObjectPointer\ObjectPointer\EmployeeManager2.cpp(89,39): warning C4552: '+': 식의 결과가 사용되지 않습니다.
+  ObjectPointer.vcxproj -> C:\Users\user\Desktop\CPP_Programming\ObjectPointer\Debug\ObjectPointer.exe

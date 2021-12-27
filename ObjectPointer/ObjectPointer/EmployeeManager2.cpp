@@ -17,6 +17,9 @@ public:
 	{
 		std::cout << "name: " << name << std::endl;
 	}
+	virtual int GetPay() const = 0;
+	virtual void ShowSalaryInfo() const = 0;
+	
 };
 
 class TemporaryWorker : public Employee
@@ -34,12 +37,12 @@ public:
 		workTime += time;
 	}
 
-	int GetPay() const
+	virtual int GetPay() const
 	{
 		return workTime * payPerHour;
 	}
 
-	void ShowSalaryInfo() const
+	virtual void ShowSalaryInfo() const
 	{
 		ShowYourName();
 		std::cout << "salary: " << GetPay() << std::endl << std::endl;
@@ -54,11 +57,11 @@ public:
 	PermenanentWorker(char * name,int money)
 		: Employee(name), salary(money)
 	{}
-	int GetPay() const
+	virtual int GetPay() const
 	{
 		return salary;
 	}
-	void ShowSalaryIfno() const
+	virtual void ShowSalaryInfo() const
 	{
 		ShowYourName();
 		std::cout << "salary: " << GetPay() << std::endl << std::endl;
@@ -81,11 +84,11 @@ public:
 		salesResult += value;
 	}
 
-	int GetPay() const
+	virtual int GetPay() const
 	{
 		return PermenanentWorker::GetPay(); +(int)(salesResult * bonusRatio);
 	}
-	void ShowsalaryInfo() const
+	virtual void ShowSalaryInfo() const
 	{
 		ShowYourName();
 		std::cout << "salary: " << GetPay() << std::endl << std::endl;
@@ -105,13 +108,21 @@ public:
 	{
 		empList[empNum++] = emp;
 	}
-	void ShowAllSalaryInfo() const
+	virtual void ShowAllSalaryInfo() const
 	{
-		
+		for (int i = 0; i < empNum; i++)
+		{
+			empList[i]->ShowSalaryInfo();
+		}
 	}
-	void ShowTotalSalary() const
+	virtual void ShowTotalSalary() const
 	{
 		int sum = 0;
+		for (int i = 0; i < empNum; i++)
+		{
+			sum += empList[i]->GetPay();
+		}
+		
 		std::cout << "salary sum: " << sum <<std::endl;
 	}
 	~EmployeeHandler()
@@ -138,7 +149,7 @@ int main()
 	handler.AddEmployee(alba);
 
 	//영업직 등록
-	SaleWorker* seller = new SaleWorker((char*)"Hong", 1000, 0.1);
+	SaleWorker* seller = new SaleWorker((char*)"Hong", 1700, 0.1);
 	seller->AddSalesResult(7000);
 	handler.AddEmployee(seller);
 
@@ -149,3 +160,4 @@ int main()
 	
 	return 0;
 }
+
