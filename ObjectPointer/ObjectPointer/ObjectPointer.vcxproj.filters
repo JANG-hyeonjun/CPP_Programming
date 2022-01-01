@@ -24,5 +24,8 @@
     <ClCompile Include="FunctionOverride.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="EmployeeManager4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

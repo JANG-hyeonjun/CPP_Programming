@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="EmployeeManager2.cpp" />
+    <ClCompile Include="EmployeeManager4.cpp" />
     <ClCompile Include="FunctionOverride.cpp" />
     <ClCompile Include="ObjectPointer.cpp" />
   </ItemGroup>

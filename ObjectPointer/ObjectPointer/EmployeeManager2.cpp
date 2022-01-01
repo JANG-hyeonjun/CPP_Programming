@@ -86,7 +86,7 @@ public:
 
 	virtual int GetPay() const
 	{
-		return PermenanentWorker::GetPay(); +(int)(salesResult * bonusRatio);
+		return (int)PermenanentWorker::GetPay();  +(int)(salesResult * bonusRatio);
 	}
 	virtual void ShowSalaryInfo() const
 	{
@@ -133,31 +133,31 @@ public:
 		}
 	}
 };
-
-int main()
-{
-	EmployeeHandler handler;
-
-
-	//정규직 등록
-	handler.AddEmployee(new PermenanentWorker((char*)"Kim", 1000));
-	handler.AddEmployee(new PermenanentWorker((char*)"Lee", 1500));
-	
-	//임시직 등록
-	TemporaryWorker* alba = new TemporaryWorker((char*)"Jung", 700);
-	alba->AddWorkTime(5);
-	handler.AddEmployee(alba);
-
-	//영업직 등록
-	SaleWorker* seller = new SaleWorker((char*)"Hong", 1700, 0.1);
-	seller->AddSalesResult(7000);
-	handler.AddEmployee(seller);
-
-	handler.ShowAllSalaryInfo();
-
-	handler.ShowTotalSalary();
-
-	
-	return 0;
-}
-
+//
+//int main()
+//{
+//	EmployeeHandler handler;
+//
+//
+//	//정규직 등록
+//	handler.AddEmployee(new PermenanentWorker((char*)"Kim", 1000));
+//	handler.AddEmployee(new PermenanentWorker((char*)"Lee", 1500));
+//	
+//	//임시직 등록
+//	TemporaryWorker* alba = new TemporaryWorker((char*)"Jung", 700);
+//	alba->AddWorkTime(5);
+//	handler.AddEmployee(alba);
+//
+//	//영업직 등록
+//	SaleWorker* seller = new SaleWorker((char*)"Hong", 1700, 0.1);
+//	seller->AddSalesResult(7000);
+//	handler.AddEmployee(seller);
+//
+//	handler.ShowAllSalaryInfo();
+//
+//	handler.ShowTotalSalary();
+//
+//	
+//	return 0;
+//}
+//
