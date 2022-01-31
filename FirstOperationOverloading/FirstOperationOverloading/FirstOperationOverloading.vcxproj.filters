@@ -18,5 +18,8 @@
     <ClCompile Include="FirstOperationOverloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="GFunctionOverloading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
