@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "55fa6890-f3e1-4620-8791-76e3c2dbd165": {
+      "ProjectGuid": "55fa6890-f3e1-4620-8791-76e3c2dbd165",
+      "DisplayName": "AddFunctionTemplate.cpp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

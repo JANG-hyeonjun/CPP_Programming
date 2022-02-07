@@ -1,0 +1,12 @@
+﻿  AddFunctionTemplate.cpp
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_13\AddFunctionTemplate.cpp\AddFunctionTemplate.cpp\AddFunctionTemplate.cpp(18,29): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=int
+          ]
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_13\AddFunctionTemplate.cpp\AddFunctionTemplate.cpp\AddFunctionTemplate.cpp(18,24): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=int
+          ]
+  AddFunctionTemplate.cpp.vcxproj -> C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_13\AddFunctionTemplate.cpp\x64\Debug\AddFunctionTemplate.exe
