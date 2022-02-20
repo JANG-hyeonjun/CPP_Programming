@@ -1,0 +1,122 @@
+﻿  Propertysheet.cpp
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkActor * __cdecl vtkActor::New(void)" (__imp_?New@vtkActor@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkActor>::vtkNew<class vtkActor>(void)" (??0?$vtkNew@VvtkActor@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: class vtkProperty * __thiscall vtkActor::GetProperty(void)" (__imp_?GetProperty@vtkActor@@QAEPAVvtkProperty@@XZ)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: class vtkAlgorithmOutput * __thiscall vtkAlgorithm::GetOutputPort(void)" (__imp_?GetOutputPort@vtkAlgorithm@@QAEPAVvtkAlgorithmOutput@@XZ)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkConeSource * __cdecl vtkConeSource::New(void)" (__imp_?New@vtkConeSource@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkConeSource>::vtkNew<class vtkConeSource>(void)" (??0?$vtkNew@VvtkConeSource@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkInteractorStyleTrackballCamera * __cdecl vtkInteractorStyleTrackballCamera::New(void)" (__imp_?New@vtkInteractorStyleTrackballCamera@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkInteractorStyleTrackballCamera>::vtkNew<class vtkInteractorStyleTrackballCamera>(void)" (??0?$vtkNew@VvtkInteractorStyleTrackballCamera@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkNamedColors * __cdecl vtkNamedColors::New(void)" (__imp_?New@vtkNamedColors@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkNamedColors>::vtkNew<class vtkNamedColors>(void)" (??0?$vtkNew@VvtkNamedColors@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: class vtkColor3d __thiscall vtkNamedColors::GetColor3d(class vtkStdString const &)" (__imp_?GetColor3d@vtkNamedColors@@QAE?AVvtkColor3d@@ABVvtkStdString@@@Z)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkPolyDataMapper * __cdecl vtkPolyDataMapper::New(void)" (__imp_?New@vtkPolyDataMapper@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkPolyDataMapper>::vtkNew<class vtkPolyDataMapper>(void)" (??0?$vtkNew@VvtkPolyDataMapper@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkRenderWindow * __cdecl vtkRenderWindow::New(void)" (__imp_?New@vtkRenderWindow@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkRenderWindow>::vtkNew<class vtkRenderWindow>(void)" (??0?$vtkNew@VvtkRenderWindow@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkRenderWindowInteractor * __cdecl vtkRenderWindowInteractor::New(void)" (__imp_?New@vtkRenderWindowInteractor@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkRenderWindowInteractor>::vtkNew<class vtkRenderWindowInteractor>(void)" (??0?$vtkNew@VvtkRenderWindowInteractor@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: void __thiscall vtkRenderWindowInteractor::SetRenderWindow(class vtkRenderWindow *)" (__imp_?SetRenderWindow@vtkRenderWindowInteractor@@QAEXPAVvtkRenderWindow@@@Z)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkRenderer * __cdecl vtkRenderer::New(void)" (__imp_?New@vtkRenderer@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkRenderer>::vtkNew<class vtkRenderer>(void)" (??0?$vtkNew@VvtkRenderer@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: void __thiscall vtkRenderer::AddActor(class vtkProp *)" (__imp_?AddActor@vtkRenderer@@QAEXPAVvtkProp@@@Z)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Propertysheet.obj : error LNK2019: "__declspec(dllimport) public: static class vtkSphereSource * __cdecl vtkSphereSource::New(void)" (__imp_?New@vtkSphereSource@@SAPAV1@XZ)"public: __thiscall vtkNew<class vtkSphereSource>::vtkNew<class vtkSphereSource>(void)" (??0?$vtkNew@VvtkSphereSource@@@@QAE@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkDomainsChemistryOpenGL2-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersFlowPaths-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersGeneric-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersHyperTree-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersParallelImaging-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersProgrammable-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersSelection-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersSMP-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersTexture-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersVerdict-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkverdict-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkGeovisCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkproj4-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingMath-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingMorphological-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingStatistics-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingStencil-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkInteractionImage-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOAMR-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOEnSight-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOExodus-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOExport-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOImport-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOInfovis-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtklibxml2-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOLSDyna-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOMINC-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOMovie-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkoggtheora-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOParallel-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkjsoncpp-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOParallelXML-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOPLY-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOSQL-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtksqlite-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOVideo-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingContextOpenGL2-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingImage-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingLOD-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingVolumeOpenGL2-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkViewsContext2D-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkViewsInfovis-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkDomainsChemistry-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersAMR-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkexoIIc-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersParallel-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIONetCDF-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkNetCDF_cxx-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkNetCDF-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkhdf5_hl-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkhdf5-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOXML-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOXMLParser-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkexpat-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkParallelCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOLegacy-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOGeometry-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingOpenGL2-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkglew-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkChartsCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingContext2D-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersImaging-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkInfovisLayout-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkInfovisCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkViewsCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkInteractionWidgets-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingHybrid-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOImage-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkDICOMParser-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkIOCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkmetaio-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkpng-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtktiff-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkjpeg-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersHybrid-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingGeneral-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingSources-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersModeling-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkInteractionStyle-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingAnnotation-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingColor-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingVolume-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingLabel-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingFreeType-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkRenderingCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonColor-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersExtraction-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersStatistics-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkalglib-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingFourier-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkImagingCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersGeometry-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersSources-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersGeneral-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkFiltersCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonExecutionModel-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonComputationalGeometry-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonDataModel-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonMisc-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonTransforms-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonMath-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonSystem-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkCommonCore-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtksys-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkfreetype-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+D:\library\x64\vc12\Vtk-7.0\dynamic\lib\vtkzlib-7.0_d.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\Open_GL\Propertysheet\Debug\Propertysheet.exe : fatal error LNK1120: 14개의 확인할 수 없는 외부 참조입니다.
