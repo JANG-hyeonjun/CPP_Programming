@@ -1,0 +1,4 @@
+﻿  ATMSim2.cpp
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_15\ATMSim2\ATMSim2\ATMSim2.cpp(54,49): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_15\ATMSim2\ATMSim2\ATMSim2.cpp(63,50): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  ATMSim2.vcxproj -> C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_15\ATMSim2\Debug\ATMSim2.exe
