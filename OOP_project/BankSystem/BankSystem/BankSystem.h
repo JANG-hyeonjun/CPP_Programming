@@ -1,5 +1,7 @@
 #pragma once
 
+#if 0
+
 #define _CRT_SECURE_NO_WARNINGS
 
 /*
@@ -33,7 +35,7 @@ typedef struct {
 Account accArr[100];
 int accNum = 0;
 
-
+#endif
 
 
 

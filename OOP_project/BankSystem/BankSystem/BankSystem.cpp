@@ -1,3 +1,4 @@
+#if 0
 #include "BankSystem.h"
 
 
@@ -112,3 +113,4 @@ void ShowAllAccinfo(void)
 		std::cout << "ภÜ พื: " << accArr[i].balance << std::endl << std::endl;
 	}
 }
+#endif
