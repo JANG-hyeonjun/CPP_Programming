@@ -35,6 +35,7 @@ int main(void)
 			std::cout << "Illegal selection.." << std::endl;
 		}
 	}
+
 	delete manager;
 	return 0;
 }
@@ -67,17 +68,71 @@ void AccountHandler::ShowMenu(void) const
 
 void AccountHandler::MakeAccount(void)
 {
+	int sel;
+	std::cout << "[계좌종류선택]" << std::endl;
+	std::cout << "1.보통예금계좌 ";
+	std::cout << "2.신용신뢰 계좌 " << std::endl;
+	std::cout << "선택: ";
+	std::cin >> sel;
+
+	if (sel == NORMAL)
+	{
+		MakeNormalAccount();
+	}
+	else
+	{
+		MakeCreditAccount();
+	}
+}
+
+void AccountHandler::MakeNormalAccount(void)
+{
 	int id;
 	char name[NAME_LEN];
 	int balance;
+	int interRate;
 
-	std::cout << "[계좌개설]" << std::endl;
+	std::cout << "[보통예금계좌]" << std::endl;
 	std::cout << "계좌ID: "; std::cin >> id;
 	std::cout << "이름: "; std::cin >> name;
 	std::cout << "입금액: "; std::cin >> balance;
+	std::cout << "이자율: "; std::cin >> interRate;
+	std::cout << std::endl;
 
-	accArr[accNum++] = new Account(id, balance, name);
+	accArr[accNum++] = new NormalAccount(id, balance, name, interRate);
 }
+
+void AccountHandler::MakeCreditAccount(void)
+{
+	int id;
+	char name[NAME_LEN];
+	int balance;
+	int interRate;
+	int creditLevel;
+
+	std::cout << "[신용신뢰계좌개설]" << std::endl;
+	std::cout << "계좌ID: "; std::cin >> id;
+	std::cout << "이름: "; std::cin >> name;
+	std::cout << "입금액: "; std::cin >> balance;
+	std::cout << "이자율: "; std::cin >> interRate; 
+	std::cout << "신용등급(1toA, 2toB, 3toC): "; std::cin >> creditLevel;
+	std::cout << std::endl;
+
+	switch (creditLevel)
+	{
+	case 1:
+		accArr[accNum++] = new HighCreditAccount(id, balance, name, interRate, LEVEL_A);
+		break;
+	case 2:
+		accArr[accNum++] = new HighCreditAccount(id, balance, name, interRate, LEVEL_B);
+		break;
+	case 3:
+		accArr[accNum++] = new HighCreditAccount(id, balance, name, interRate, LEVEL_C);
+	}
+}
+
+
+
 
 void AccountHandler::DepositMoney(void)
 {
@@ -173,4 +228,18 @@ void Account::ShowAccInfo() const
 Account::~Account()
 {
 	delete[]cusName;
+}
+
+
+void NormalAccount::Deposit(int money) 
+{
+	Account::Deposit(money);
+	Account::Deposit((money * interRate / 100));
+}
+
+
+void HighCreditAccount::Deposit(int money)
+{
+	NormalAccount::Deposit(money);
+	Account:; Deposit(money * (specialRate / 100));
 }
