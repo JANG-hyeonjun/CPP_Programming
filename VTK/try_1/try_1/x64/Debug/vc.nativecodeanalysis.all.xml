@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkObjectBase.h</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'vtkObjectBase::WeakPointers' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>vtkObjectBase::{ctor}</FUNCTION>
+    <DECORATED>??0vtkObjectBase@@IEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>186</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkObjectBase::WeakPointers</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkVariantInlineOperators.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6287</DEFECTCODE>
+    <DESCRIPTION>코드가 중복됩니다.  왼쪽 부분식과 오른쪽 부분식이 동일합니다.</DESCRIPTION>
+    <FUNCTION>IsSigned64Bit</FUNCTION>
+    <DECORATED>?IsSigned64Bit@@YA_NH@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkCellArray.h</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '+' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '+' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkCellArray::EstimateSize</FUNCTION>
+    <DECORATED>?EstimateSize@vtkCellArray@@QEAA_J_JH@Z</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkTuple.h</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'vtkTuple&lt;unsigned char,4&gt;::Data' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>vtkTuple&lt;unsigned char,4&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vtkTuple@E$03@@QEAA@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkTuple&lt;unsigned char,4&gt;::Data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkMath.h</FILENAME>
+      <LINE>1177</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkDeterminant3x3</FUNCTION>
+    <DECORATED>??$vtkDeterminant3x3@M@@YANQEAY02M@Z</DECORATED>
+    <FUNCLINE>1173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkMath.h</FILENAME>
+      <LINE>1176</LINE>
+      <COLUMN>67</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkDeterminant3x3</FUNCTION>
+    <DECORATED>??$vtkDeterminant3x3@M@@YANQEAY02M@Z</DECORATED>
+    <FUNCLINE>1173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkMath.h</FILENAME>
+      <LINE>1176</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '-' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '-' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkDeterminant3x3</FUNCTION>
+    <DECORATED>??$vtkDeterminant3x3@M@@YANQEAY02M@Z</DECORATED>
+    <FUNCLINE>1173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkMath.h</FILENAME>
+      <LINE>1175</LINE>
+      <COLUMN>67</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '+' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '+' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkDeterminant3x3</FUNCTION>
+    <DECORATED>??$vtkDeterminant3x3@M@@YANQEAY02M@Z</DECORATED>
+    <FUNCLINE>1173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkMath.h</FILENAME>
+      <LINE>1175</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '+' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '+' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkDeterminant3x3</FUNCTION>
+    <DECORATED>??$vtkDeterminant3x3@M@@YANQEAY02M@Z</DECORATED>
+    <FUNCLINE>1173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkMath.h</FILENAME>
+      <LINE>1175</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '*' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '*' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkDeterminant3x3</FUNCTION>
+    <DECORATED>??$vtkDeterminant3x3@M@@YANQEAY02M@Z</DECORATED>
+    <FUNCLINE>1173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\library\x64\vc12\Vtk-7.0\dynamic\include\vtk-7.0\</FILEPATH>
+      <FILENAME>vtkMath.h</FILENAME>
+      <LINE>1175</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>산술 오버플로: 4 바이트 값의 '*' 연산자를 사용한 다음 결과를 8 바이트 값에 캐스트합니다. 오버플로를 방지하려면 '*' 연산자를 호출하기 전에 더 광범위한 형식에 값을 캐스트합니다(io.2).</DESCRIPTION>
+    <FUNCTION>vtkDeterminant3x3</FUNCTION>
+    <DECORATED>??$vtkDeterminant3x3@M@@YANQEAY02M@Z</DECORATED>
+    <FUNCLINE>1173</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
