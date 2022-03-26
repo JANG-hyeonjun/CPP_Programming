@@ -1,0 +1,4 @@
+﻿  Problem_10_2.cpp
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_10\Problem_10_2\Problem_10_2\Problem_10_2.cpp(40): warning C4172: 지역 변수 또는 임시: pos의 주소를 반환하고 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_10\Problem_10_2\Problem_10_2\Problem_10_2.cpp(29): warning C4172: 지역 변수 또는 임시: pos의 주소를 반환하고 있습니다.
+  Problem_10_2.vcxproj -> C:\Users\cjstk\Desktop\git_hub\CPP_Programming\chapter_10\Problem_10_2\Debug\Problem_10_2.exe
