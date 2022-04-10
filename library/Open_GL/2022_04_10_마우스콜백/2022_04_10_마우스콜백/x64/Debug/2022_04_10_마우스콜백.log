@@ -1,0 +1,10 @@
+﻿  2022_04_10_마우스콜백.cpp
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(11,53): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(11,24): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(12,57): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(12,24): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(13,61): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(13,28): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(14,57): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\2022_04_10_마우스콜백\2022_04_10_마우스콜백.cpp(14,28): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  2022_04_10_마우스콜백.vcxproj -> C:\Users\cjstk\Desktop\git_hub\CPP_Programming\library\Open_GL\2022_04_10_마우스콜백\x64\Debug\2022_04_10_마우스콜백.exe
