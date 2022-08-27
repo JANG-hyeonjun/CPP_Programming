@@ -25,7 +25,7 @@ class GreenLight : public State
 public:
 	explicit GreenLight(std::string str); 
 	virtual void Speak() override;
-	virtual void Wait(TrafficLight* pTrafficLight);
+	virtual void Wait(TrafficLight* pTrafficLight) override;
 };
 
 class YellowLight : public State
