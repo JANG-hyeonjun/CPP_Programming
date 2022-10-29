@@ -42,7 +42,6 @@ void printSpan(std::span<int> nums)
     }
 }
 
-
 int main()
 {
     //우리는 이것에 대해 프린트하는 함수를 만들때 각각의 자료형의 인터페이스를 맞춰 함수를 만들어야한다.

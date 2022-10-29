@@ -2,9 +2,11 @@
 //
 
 #include <iostream>
+#include <gl/glut.h>
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
