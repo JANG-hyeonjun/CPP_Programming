@@ -1,0 +1,11 @@
+# ninja log v5
+0	864	1662179807366454868	CMakeFiles/CommandPattern.dir/main.cpp.o	f040c4ff2138ef9f
+867	1206	1662179807713733603	CommandPattern	52dd75d1deba984b
+2	611	1662188024035616807	CMakeFiles/CommandPattern.dir/main.cpp.o	f040c4ff2138ef9f
+611	674	1662188024100973725	CommandPattern	52dd75d1deba984b
+1	719	1662188149437002504	CMakeFiles/CommandPattern.dir/main.cpp.o	f040c4ff2138ef9f
+719	790	1662188149513521295	CommandPattern	52dd75d1deba984b
+1	716	1662188729503164110	CMakeFiles/CommandPattern.dir/main.cpp.o	f040c4ff2138ef9f
+717	796	1662188729586926066	CommandPattern	52dd75d1deba984b
+1	790	1662189076749392510	CMakeFiles/CommandPattern.dir/main.cpp.o	f040c4ff2138ef9f
+790	857	1662189076818837906	CommandPattern	52dd75d1deba984b
