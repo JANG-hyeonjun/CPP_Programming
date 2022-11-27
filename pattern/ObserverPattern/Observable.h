@@ -33,7 +33,7 @@ public:
         std::lock_guard<std::mutex> guard(mtx);
         observers.push_back(observer);
     }
-    void unScribe(Observer<T>* observer)
+    void unSubScribe(Observer<T>* observer)
     {
         std::lock_guard<std::mutex> guard(mtx);
         auto it = std::find(observers.begin(), observers.end(),observer);

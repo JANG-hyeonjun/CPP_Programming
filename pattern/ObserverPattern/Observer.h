@@ -38,7 +38,7 @@ public:
             else
             {
                 std::cout << "We no longer care!\n";
-                source.unScribe(this);
+                source.unSubScribe(this);
             }
         }
     }

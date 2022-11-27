@@ -10,7 +10,7 @@ int main()
     ConsolePersonObserver cpo;
     p.subScribe(&cpo);
     p.setAge(21);
-    p.unScribe(&cpo);
+    p.unSubScribe(&cpo);
     p.setAge(22);*/
 
 
