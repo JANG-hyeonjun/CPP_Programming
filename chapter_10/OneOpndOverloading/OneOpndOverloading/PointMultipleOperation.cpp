@@ -1,5 +1,6 @@
 #include<iostream>
 
+#if 0
 class Point
 {
 private:
@@ -47,3 +48,4 @@ int main(void)
 	
 	return EXIT_SUCCESS;
 }
+#endif
